@@ -1,138 +1,34 @@
-## KompreJuntoChallenge
-Desafio de Programação - KompreJunto 2022
+## KompreJuntoChallenge - Part 2
+Desafio de Programação - KompreJunto 2022 - Etapa FRONTEND
 
 
 Olá!! 
 
-Se você está aqui, provavelmente está participando do processo seletivo da Komprejunto! Seja muito bem-vindo, e esperamos que goste do desafio que vamos propor. Pensamos nesta etapa como meio de tornar esta experiência mais construtiva para você e também para nos ajudar a avaliar o seu alinhamento com os valores da empresa.
+Se você está aqui, provavelmente está participando do processo seletivo da Komprejunto! Seja muito bem-vindo, e esperamos que goste do desafio que vamos propor. Esta etapa foi pensada como uma maneira de apresentar a estrutura na qual a WEB atual (2022) funciona e aproveitamos para testar a capacidade dos candidatos com a principal tecnologia Frontend utilizada na empresa, o Ember.js (https://emberjs.com/). Este repositório é aberto a todo mundo, e qualquer um que quiser se testar ou aprender algo novo é extremamente bem-vindo!
 
-Como dissemos na descrição da vaga, nós não esperamos nenhum conhecimento técnico prévio de nenhum dos candidatos. Mas uma coisa que valorizamos muito por aqui, é a **capacidade de aprender** e a **autonomia** de cada um. No dia a dia da empresa você irá se deparar com inúmeras situações onde terá que:
+Se você está lendo este texto, muito provavelmente já realizou a primeira etapa do processo, onde testamos principalmente as capacidades analíticas, de raciocínio lógico e programação dos candidatos. Se você ainda não realizou esta etapa, eu sugiro fortemente que o faça (disponível em https://github.com/Brunoporto2702/KompreJuntoChallenge), pois alguns dos conceitos trabalhados lá serão requisitados aqui. 
 
-* entender uma necessidade do cliente
-* converter esta necessidade em requisitos técnicos
-* pesquisar a melhor maneira de cumprir os requisitos
-* Implementar uma solução aplicando o que pesquisou
-* Apresentar ao cliente o resultado obtido e coletar feedbacks
-* Realizar os ajustes necessários e colocar em produção
-* Monitoramento e manutenção da solução 
-* Prospecção de novas oportunidades 
+### Estrutura do desafio
+O desafio é dividido basicamente em 3 etapas: 
 
-Pensando nisso, desenvolvemos este desafio, que consta de uma simulação de uma pequena parte do processo descrito acima. Não nos prendemos a uma tecnologia ou metodologia específica para solucionar nossos problemas. 
+1) Pesquisa e aclimação com a WEB e seu fluxo de informação. 
+2) Pesquisa e aclimação com o principal framework de desenvolvimento frontend utilzado pela Komprejunto, o Ember.js.
+3) Desenvolvimento de uma interface em Ember.js para a aplicação desenvolvida na primeira etapa do desafio. 
 
-# O Desafio
-## Descrição do case
-Um dos principais desafios da implementação de um sistema de **e-commerce**, é a gestão dos diversos fornecedores de frete e logística de sua carteira. Cada parceiro possui uma maneira diferente de calcular o preço cobrado pelo envio dos pedidos, bem como o prazo estipulado para a entrega, e todas as opções devem ser apresentadas ao cliente no momento de efetuar a compra para que ele escolha a opção que lhe é mais conveniente. A sua missão é desenvolver um software/algorítmo que sistematize o cálculo do preço cobrado por um dos fornecedores da komprejunto, para posterior implementação no site da empresa! 
+# 1) Pesquisa e aclimação com a WEB e seu fluxo de informação. 
 
-Abaixo encontra-se o método de cobrança por pacote embalado e enviado pela **Logística Inteligente**. Este fornecedor cobra da Komprejunto por meio de duas frentes diferentes: Logística e Frete. A soma das duas frentes compõe o preço final que será cobrado por pedido. O preço é formado a partir da seguinte regra: 
+Esta etapa do processo foi pensada para introduzir os principais conceitos e ferramentas que viabilizam a WEB como utilizamos no ano de 2022. Se você já tem experiência desenvolvimento WEB e se sente confiante com assuntos como: servidores/clientes, HTML/CSS/Javascript, HTTP/HTTPS, MVC, SPA, FRONTEND/BACKEND e etc. Sinta-se a vontade para pular direto para a segunda parte do desafio. 
 
-### Custo de Logística:
-O custo de logística é o preço cobrado para receber, empacotar, armazenar e enviar os pedidos. Basicamente, ele depende do peso e das dimensões do produto e da quantidade de itens comprados. As instruções de cobrança foram enviadas pelo fornecedor e foram baseadas em uma simulação de 150 pedidos contendo de 1 a 2 unidades de produto por pedido. Segue o e-mail: 
+Vale salientar que tudo o que será apresentado nesta etapa é um "juntadão" de alguns conhecimentos e opiniões adiquiridos durante a aplicação de práticas de desenvolvimento de software totalmente voltados para fins mercadológicos e portanto não tem a ambição de servir como referência acadêmica ou algo do tipo, muito menos impor o que é certo ou errado. Por sinal, caso encontrem alguma gafe ou erro e queiram colaborar para tornar o material cada vez melhor, ficaríamos felizes em escutar suas sugestões de possíveis melhorias e/ou correções que possam surgir ao longo do processo! ;)
 
-![image](https://user-images.githubusercontent.com/53821307/118880233-044c2080-b8c8-11eb-933e-70f628ab0910.png)
+Ao longo do texto, serão colocadas referências, majoritariamente em formato de vídeos disponibilizados no youtube, que podem ajudar muito no entendimento dos conceitos que buscamos passar aqui. Além disso, é claro, sempre haverá uma infinidade de materiais disponíveis na internet onde é possível aprofundar cada vez mais seus conhecimentos nos assuntos tratados. E é claro, sempre haverá os livros, uma das principais fontes de informação profunda e confiável. 
 
-Para realizar a simulação acima, considerou-se o seguinte preço para cada um dos parâmetros:
-* preço packing: 5,72 por pedido
-* preço picking: 0,28 por produto
-* preço por volume: 49,98 por m3
-* preço por peso: 0,91 por kg
- 
-observações:
- * Desconsidere o custo do SKU
- * Packing é o preço por empacotar um pedido
- * Picking é o preço por receber cada unidade de produto
+## Servidores/clientes, HTML/CSS/Javascript, HTTP/HTTPS
+
+Na opinão de quem escreve este texto, a internet é basicamente tráfego de informação, esteja ela em texto, imagem, vídeo ou qualquer outro formato que possamos encontrar. É uma consequência natural do surgimento de tecnologias de rede e comunicação desenvolvidas ao redor do mundo todo durante o século XX. 
+
+Durante a década de 90 e início dos anos 2000, quando esta tecnologia chegava nas mãos de cidadãos comuns, a informação trafegava majoritariamente em formato de texto e era apresentada ao internauta através de um software conhecido como navegador. O navegador é responsável por de receber texto em formato HTML e formatar/renderizar o material para que um ser humano pudesse ler e entender. Na grande maioria dos casos, os textos ficavam armazenados *estaticamente* em servidores conectados através de uma rede TCP/IP de escala global conhecida como World Wide Web (WWW), e estes conteútos podiam ser econtrados por meio de endereços nomeados de URL (Uniform Resource Locator). Uma URL pode ser qualquer cadeia de caracteres que siga um determinado padrão estipulado, algo como www.komprejunto.com.br, que normalmente servia de "codinome" para determinado endereço IP, que então concatenado com sub-endereços como por exemplo www.komprejunto.com.br/contato poderiam chegar a determinados conteúdos. 
 
 
-### Custo de Frete:
-O custo de frete é o preço cobrado para levar o pedido até a casa do comprador. Ele é calculado com base no CEP do comprador e do peso total do pacote a ser enviado. Para calcular o preço do frete, é necessário consultar as tabelas em csv disponibilizadas neste repositório dentro da pasta "CSVs". 
 
-Basicamente basta consultar a coluna "Geografia Comercial" para determinado intervalo de "CEP Inicial" e "CEP Final" que contém o CEP do comprador no arquivo "codigo-por-cep.csv". E então consultar qual o preço para o código encontrado no processo anterior e peso do total do pedido no arquivo "preco-por-codigo-e-peso.csv". 
-
-## Regras
-Desenvolva uma solução para automatizar o cálculo do preço que será cobrado por pedido utilizando sua tecnologia de preferência.
-
-O programa que você desenvolver deve ter como **entrada** os seguintes **parâmetros**: 
-
-* largura, profundidade e altura para cada unidade de produto em **metros**
-* peso de cada unidade do produto em **gramas**
-* Quantidade comprada (un. de produtos) 
-* CEP de entrega
-
-E deve ter como **saída** o preço que será cobrado por pedido. 
-
-### Casos de teste
-A seguir constam casos de teste para serem usados na validação da sua solução. Insira nos casos 2 e 3 os valores obtidos com a sua solução. 
-
-#### Caso 1:
-**Parâmetros**: 
-* Peso do produto: 250g
-* Dimensões do produto: 0,2 x 0,2 x 0,3m
-* Quantidade de produtos: 2un.
-* CEP: 05612-050 
-
-**Saída esperada**:
-* R$ (Insira o valor obtido por sua solução)
-
-#### Caso 2:
-**Parâmetros**: 
-* Peso do produto: 1200g
-* Dimensões do produto: 0,4 x 0,2 x 0,5m
-* Quantidade de produtos: 3un.
-* CEP: 04520-010 
-
-**Saída esperada**:
-* R$ (Insira o valor obtido por sua solução)
-
-#### Caso 3:
-**Parâmetros**: 
-* Peso do produto: 2000g
-* Dimensões do produto: 1 x 1 x 0,5m
-* Quantidade de produtos: 1un.
-* CEP: 07115-000 
-
-**Saída esperada**:
-* R$ (Insira o valor obtido por sua solução)
-
-Além dos casos acima, desenvolva mais 3 casos para testar sua aplicação. Insira abaixo os valores que você usou para cada caso de teste que você desenvolveu:
-
-#### Caso 4 (desenvolvido pelo cadidato):
-**Parâmetros**: 
-* Peso do produto: 
-* Dimensões do produto: 
-* Quantidade de produtos: .
-* CEP:  
-
-**Saída esperada**:
-* R$XX,XX
-
-#### Caso 5 (desenvolvido pelo cadidato):
-**Parâmetros**: 
-* Peso do produto: 
-* Dimensões do produto: 
-* Quantidade de produtos: 
-* CEP: 
-
-**Saída esperada**:
-* R$XX,XX
-
-#### Caso 6 (desenvolvido pelo cadidato):
-**Parâmetros**: 
-* Peso do produto: 
-* Dimensões do produto: 
-* Quantidade de produtos: 
-* CEP: 
-
-**Saída esperada**:
-* R$XX,XX
-
-### Forma de entrega: 
-Subir a sua solução em um repósitório no GitHub e nos avisar por e-mail (bruno.porto@minimo.com.br).
-
-### Em caso de dúvidas:
-Ficamos a disposição no mesmo contato do e-mail acima. 
-
-### Prazo para entrega **21hrs 27/05/2021**
-
-
-# Boa Sorte
- 
-
+Akita (https://www.youtube.com/watch?v=VKmPGmFY7H4&t=770s) 
