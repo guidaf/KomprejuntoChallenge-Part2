@@ -29,6 +29,7 @@ Na opinão de quem escreve este texto, a internet é basicamente tráfego de inf
 
 Durante a década de 90 e início dos anos 2000, quando esta tecnologia chegava nas mãos de cidadãos comuns, a informação trafegava majoritariamente em formato de texto e era apresentada ao internauta através de um software conhecido como navegador. O navegador é responsável por de receber texto em formato HTML e formatar/renderizar o material para que um ser humano pudesse ler e entender. Na grande maioria dos casos, os textos ficavam armazenados *estaticamente* em servidores conectados através de uma rede TCP/IP de escala global conhecida como World Wide Web (WWW), e estes conteútos podiam ser econtrados por meio de endereços nomeados de URL (Uniform Resource Locator). Uma URL pode ser qualquer cadeia de caracteres que siga um determinado padrão estipulado, algo como www.komprejunto.com.br, que normalmente servia de "codinome" para determinado endereço IP, que então concatenado com sub-endereços como por exemplo www.komprejunto.com.br/contato poderiam chegar a determinados conteúdos. 
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40RayRay504%2Fhypertext-transfer-protocol-http-6358be84964b&psig=AOvVaw3l7kRxnaagrZNCGHwwm1Gr&ust=1644515428990000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCIzceX8_UCFQAAAAAdAAAAABAJ
 
 
 Akita (https://www.youtube.com/watch?v=VKmPGmFY7H4&t=770s) 
