@@ -23,12 +23,20 @@ Vale salientar que tudo o que será apresentado nesta etapa é um "juntadão" de
 
 Ao longo do texto, serão colocadas referências, majoritariamente em formato de vídeos disponibilizados no youtube, que podem ajudar muito no entendimento dos conceitos que buscamos passar aqui. Além disso, é claro, sempre haverá uma infinidade de materiais disponíveis na internet onde é possível aprofundar cada vez mais seus conhecimentos nos assuntos tratados. E é claro, sempre haverá os livros, uma das principais fontes de informação profunda e confiável. 
 
-## Servidores/clientes, HTML/CSS/Javascript, HTTP/HTTPS
+## Servidores/clientes
 
 Na opinão de quem escreve este texto, a internet é basicamente tráfego de informação, esteja ela em texto, imagem, vídeo ou qualquer outro formato que possamos encontrar. É uma consequência natural do surgimento de tecnologias de rede e comunicação desenvolvidas ao redor do mundo todo durante o século XX. 
 
 Durante a década de 90 e início dos anos 2000, quando esta tecnologia chegava nas mãos de cidadãos comuns, a informação trafegava majoritariamente em formato de texto e era apresentada ao internauta através de um software conhecido como navegador. O navegador é responsável por de receber texto em formato HTML e formatar/renderizar o material para que um ser humano pudesse ler e entender. Na grande maioria dos casos, os textos ficavam armazenados *estaticamente* em servidores conectados através de uma rede TCP/IP de escala global conhecida como World Wide Web (WWW), e estes conteútos podiam ser econtrados por meio de endereços nomeados de URL (Uniform Resource Locator). Uma URL pode ser qualquer cadeia de caracteres que siga um determinado padrão estipulado, algo como www.komprejunto.com.br, que normalmente servia de "codinome" para determinado endereço IP, que então concatenado com sub-endereços como por exemplo www.komprejunto.com.br/contato poderiam chegar a determinados conteúdos. 
 
-![image](https://user-images.githubusercontent.com/53821307/153260273-455c06da-022d-45dd-80f5-646e10718074.png)
+## HTTP/HTTPS
+
+O protocolo que viabiliza o tráfego de informação entre os computadores conectados na internet é o TCP/IP. Em cima deste protocolo, foi adicionada uma camada extra de padrões para com o objetivo de otimizar a comunicação nesta rede específica. Este protocolo se chama *HTTP*. 
+
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53821307/153260273-455c06da-022d-45dd-80f5-646e10718074.png" alt="WWW basic structure and functioning"/>
+</p>
 
 Akita (https://www.youtube.com/watch?v=VKmPGmFY7H4&t=770s) 
